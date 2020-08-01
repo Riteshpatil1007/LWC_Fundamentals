@@ -1,0 +1,149 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/newsComponent": [
+                "newsComponent/newsComponent.js"
+            ],
+            "c/dataBinding": [
+                "dataBinding/dataBinding.js"
+            ],
+            "c/templateLoopingForEach": [
+                "templateLoopingForEach/templateLoopingForEach.js"
+            ],
+            "c/templateLoopingIterator": [
+                "templateLoopingIterator/templateLoopingIterator.js"
+            ],
+            "c/templateTrueDemo": [
+                "templateTrueDemo/templateTrueDemo.js"
+            ],
+            "c/templateFalseDemo": [
+                "templateFalseDemo/templateFalseDemo.js"
+            ],
+            "c/templateToggleDemo": [
+                "templateToggleDemo/templateToggleDemo.js"
+            ],
+            "c/getterDemo": [
+                "getterDemo/getterDemo.js"
+            ],
+            "c/templateOnChangeDemo": [
+                "templateOnChangeDemo/templateOnChangeDemo.js"
+            ],
+            "c/renderMultipleDemo": [
+                "renderMultipleDemo/renderMultipleDemo.js"
+            ],
+            "c/parentComponent": [
+                "parentComponent/parentComponent.js"
+            ],
+            "c/childComponent": [
+                "childComponent/childComponent.js"
+            ],
+            "c/alertParentComponent": [
+                "alertParentComponent/alertParentComponent.js"
+            ],
+            "c/alertChildComponent": [
+                "alertChildComponent/alertChildComponent.js"
+            ],
+            "c/businessCardParentComponent": [
+                "businessCardParentComponent/businessCardParentComponent.js"
+            ],
+            "c/businessCardChildComponent": [
+                "businessCardChildComponent/businessCardChildComponent.js"
+            ],
+            "c/progressBarParentComponent": [
+                "progressBarParentComponent/progressBarParentComponent.js"
+            ],
+            "c/progressBarChildComponent": [
+                "progressBarChildComponent/progressBarChildComponent.js"
+            ],
+            "c/barParentComponent": [
+                "barParentComponent/barParentComponent.js"
+            ],
+            "c/barChildComponent": [
+                "barChildComponent/barChildComponent.js"
+            ],
+            "c/modalParentComponent": [
+                "modalParentComponent/modalParentComponent.js"
+            ],
+            "c/modalChildComponent": [
+                "modalChildComponent/modalChildComponent.js"
+            ],
+            "c/navbarParentComponent": [
+                "navbarParentComponent/navbarParentComponent.js"
+            ],
+            "c/navbarChildComponent": [
+                "navbarChildComponent/navbarChildComponent.js"
+            ],
+            "c/notifyParentComponent": [
+                "notifyParentComponent/notifyParentComponent.js"
+            ],
+            "c/notifyChildComponent": [
+                "notifyChildComponent/notifyChildComponent.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/pubsubParentComponent": [
+                "pubsubParentComponent/pubsubParentComponent.js"
+            ],
+            "c/pubsubChildOne": [
+                "pubsubChildOne/pubsubChildOne.js"
+            ],
+            "c/pubsubChildTwo": [
+                "pubsubChildTwo/pubsubChildTwo.js"
+            ],
+            "c/twitterHandlerLwc": [
+                "twitterHandlerLwc/twitterHandlerLwc.js"
+            ],
+            "c/currentRecordAndObjectInfo": [
+                "currentRecordAndObjectInfo/currentRecordAndObjectInfo.js"
+            ],
+            "c/getListUiDemo": [
+                "getListUiDemo/getListUiDemo.js"
+            ],
+            "c/getObjectInfoDemo": [
+                "getObjectInfoDemo/getObjectInfoDemo.js"
+            ],
+            "c/getPicklistValuesDemo": [
+                "getPicklistValuesDemo/getPicklistValuesDemo.js"
+            ],
+            "c/getPicklistValuesByRecordTypeDemo": [
+                "getPicklistValuesByRecordTypeDemo/getPicklistValuesByRecordTypeDemo.js"
+            ],
+            "c/createRecordDemo": [
+                "createRecordDemo/createRecordDemo.js"
+            ],
+            "c/getRecordCreateDefaultsDemo": [
+                "getRecordCreateDefaultsDemo/getRecordCreateDefaultsDemo.js"
+            ],
+            "c/getRecordDemo": [
+                "getRecordDemo/getRecordDemo.js"
+            ],
+            "c/lMCDemoLwc": [
+                "lMCDemoLwc/lMCDemoLwc.js"
+            ],
+            "c/testLwc": [
+                "testLwc/testLwc.js"
+            ],
+            "c/apexDemoLwc": [
+                "apexDemoLwc/apexDemoLwc.js"
+            ],
+            "c/refreshDemoLwc": [
+                "refreshDemoLwc/refreshDemoLwc.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
